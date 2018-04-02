@@ -1,0 +1,14 @@
+class.Customer.php (needs to be created)
+Create a Customer class
+	1. Define a customerID, customer name and database property for the class
+	2. Implement a constructor that takes the customerID and the database as parameters
+	3. Query the database to get the customerID and name from the database
+	4. Set variables from the constructor function as class properties
+
+config.php
+5. Implement an autoloader function to automatically load classes as called
+In the else if statement
+	6. Set the $customer variable equal to a new user object based on the customerID from the session
+	
+index.php
+7. Change the line that prints the customers name to print the name from the customer object.
